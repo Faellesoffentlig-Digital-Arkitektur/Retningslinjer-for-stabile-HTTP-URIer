@@ -1,7 +1,5 @@
 # Retningslinjer for stabile HTTP-URIer
 
-
-
 ## 1\. Formål
 
 Det http-baserede internet, også blot kaldet web’et, er i dag en de facto platform for interoperabilitet mellem it-systemer og vil fremover i stigende grad være den platform, det offentliges data og dokumenter vil blive udstillet og udvekslet ved hjælp af.
@@ -614,61 +612,3 @@ Nedenfor vises enkelte eksempler på ressourcers URIer, der er udformet efter re
 \[5\] [https://tools.ietf.org/html/rfc7231#section-6.4.4](https://tools.ietf.org/html/rfc7231#section-6.4.4)
 
 \[6\] [https://www.w3.org/blog/2006/02/content-negotiation/](https://www.w3.org/blog/2006/02/content-negotiation/)
-
-[Permanent URL til artiklen: https://arkitektur.digst.dk/node/1170](https://arkitektur.digst.dk/node/1170)
-
-[Tilbage til toppen](#top)
-
-Opdateret 16. september 2022
-
-DokumentinformationIndholdsfortegnelse
-
-* [1\. Formål](#1-forml)
-* [2\. Retningslinjerne](#2-retningslinjerne)
-  * [2.1 URIer bør overholde det fastlagte URI-mønster](#21-urier-br-overholde-det-fastlagte-uri-mnster)
-    * [Domændelen](#domndelen)
-    * [Brug af {type} og {emne}](#brug-af-type-og-emne)
-    * [Brug af {reference}](#brug-af-reference)
-    * [Menneskeligt læseligt og brug af danske og engelske termer](#menneskeligt-lseligt-og-brug-af-danske-og-engelske)
-  * [2.2 Genbrug i videst muligt omfang eksisterende identifikatorer](#22-genbrug-i-videst-muligt-omfang-eksisterende-ide)
-  * [2.3 Link mellem repræsentationer af en ressource med flere repræsentationer.](#23-link-mellem-reprsentationer-af-en-ressource-med)
-  * [2.4 Anvend 303-omdirigering for fysiske objekter](#24-anvend-303-omdirigering-for-fysiske-objekter)
-  * [2.5 Brug dedikerede services](#25-brug-dedikerede-services)
-  * [2.6 URIer bør ikke udrykke ejerskab](#26-urier-br-ikke-udrykke-ejerskab)
-  * [2.7 Undgå at brugere versionsnummererer URIer](#27-undg-at-brugere-versionsnummererer-urier)
-  * [2.8 URIers referencedel bør ikke have fortløbende automatisk opdatering i distribuerede miljøer](#28-uriers-referencedel-br-ikke-have-fortlbende-aut)
-  * [2.9 URIer må ikke indeholde søgestrenge](#29-urier-m-ikke-indeholde-sgestrenge)
-  * [2.10 En URI må ikke afsluttes med filtypeekstension](#210-en-uri-m-ikke-afsluttes-med-filtypeekstension)
-* [3\. Eksempler på etablerede URIer](#3-eksempler-p-etablerede-urier)
-  * [3.1Ressourcer hvor type er ’model’](#31ressourcer-hvor-type-er-model)
-    * [Ressourcer hvor URIen anvender mønsteret ’/model/core/’:](#ressourcer-hvor-urien-anvender-mnsteret-modelcore)
-    * [Ressourcer hvor URIen anvender mønsteret ’/model/profile/’:](#ressourcer-hvor-urien-anvender-mnsteret-modelprofi)
-  * [3.2 Ressourcer hvor type er ’concept’](#32-ressourcer-hvor-type-er-concept)
-    * [Ressourcer hvor URIen anvender mønsteret ’/concept/core/’:](#ressourcer-hvor-urien-anvender-mnsteret-conceptcor)
-    * [Ressourcer hvor URIen anvender mønsteret ’/concept/profile/’:](#ressourcer-hvor-urien-anvender-mnsteret-conceptpro)
-* [4\. EUs dataportals temaer for datasæt](#4-eus-dataportals-temaer-for-datast)
-* [Fodnoter](#fodnoter)
-
-Titel Retningslinjer for stabile HTTP-URIer
-
-Seneste opdateringsdato
-
-01\. september 2020
-
-Arkitekturperspektiv
-
-Information
-
-Dokument beskrivelse
-
-Retningslinjer for udformning og anvendelse af stabile HTTP-URIer er skabt. Http-URIer anvendes til entydig identifikation af data, datasæt, datamodeller og modelelementer. Retningslinjerne er udarbejdet med udgangspunkt i tilsvarende internationale retningslinjer, og de skal sikre, at HTTP-URIer holdes unikke og vedvarende.
-
-FDA Status
-
-Produktlivscyklus
-
-Færdig
-
-Versionsnummer
-
-1.0.0
